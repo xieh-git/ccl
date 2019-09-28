@@ -1,0 +1,696 @@
+body{
+    margin: 0;
+    padding: 0;
+    /* background-color: #E8FFE8 */
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+
+/*header*/
+header{
+    height: 100px;
+    width: 100%;
+    min-width: 1500px;
+    background-color:#2C2C2C;
+}
+
+/*导航栏*/
+nav{
+height: 100%;
+width: 1450px;
+min-width: 1450px;
+margin: 0 auto;
+position: relative;
+}
+
+/*导航栏的中心div*/
+nav .nav-content{
+height: 100%;
+width: 100%;
+min-width: 1450px;
+}
+
+
+/*logo*/
+nav .nav-content .nav-logo{
+    display:inline-block;
+    width: 100px;
+    height: 100px;
+    min-width: 100px;
+    min-height: 100px;
+    position: relative;  
+}
+
+/*导航栏中心区域*/
+nav .nav-content .nav-main{
+    display:inline-block;
+    width: 1000px;
+    height: 100px;
+    min-width: 1000px;
+    min-height: 100px;
+    margin-left: 19px;
+    position: relative;
+    
+}
+
+/*导航栏用户区域*/
+nav .nav-content .nav-user{
+width: 300px;
+height: 100px;
+min-width: 300px;
+min-height: 100px;
+display: inline-block;
+position: absolute;
+right: 0;
+}
+
+/*导航栏的固定装ul的div的div*/
+nav .nav-content .nav-main .nav-main-ul{
+width: 100%;
+height: 75%;
+position: absolute;
+top: 12.5%;
+}
+
+
+
+/*导航栏里装li标签的div*/
+.ul-li{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+
+
+
+/*导航栏里的ul标签*/
+nav  .nav-main-ul .ul-li  ul{
+display: inline-block;
+content: "";
+clear: both;
+width: 90%;
+height: 100%;
+position: absolute;
+margin-top:0; 
+margin-left: 47px;
+padding: 0;
+}
+
+
+/*导航栏的li标签*/
+nav  .nav-main-ul ul li{
+    float: left;
+    font-size: 25px;
+    font-family: '宋体';
+    cursor: pointer;
+    color: white;
+    margin-left: 84px;
+    margin-top: 23px;
+  
+}
+nav  .nav-main-ul ul li:hover{
+    text-decoration: underline;
+    color: orange;
+}
+
+
+
+/*导航栏的用户*/
+.nav-content .nav-user .user{
+display: inline-block;
+width: 130px;
+height: 30px;
+position: absolute;
+left: 0;
+margin-top: 35px;
+font-size: 15px;
+color: white;
+font-family: '宋体';
+text-align: center;
+line-height: 30px;
+white-space:nowrap;
+overflow:hidden;
+text-overflow:ellipsis;
+cursor: pointer;
+}
+
+/* .nav-content .nav-user .user:hover{
+    color: orange;
+    text-decoration: underline;
+} */
+
+.nav-content .nav-user .user span:hover{
+    text-decoration: underline;
+}
+
+
+
+/*导航栏的管理员*/
+.nav-content .nav-user .admin{
+    display: inline-block;
+    width: 100px;
+    height: 30px;
+    position: absolute;
+    right:0;
+    margin-top: 35px;
+    font-size: 15px;
+    color: white;
+    font-family: '宋体';
+    text-align: center;
+    line-height: 30px;
+    cursor: pointer;
+}
+
+/* .nav-content .nav-user .admin:hover{
+    color: orange;
+    text-decoration: underline;  
+} */
+
+.nav-content .nav-user .admin span:hover{
+    text-decoration: underline;  
+}
+
+/*导航栏的用户和管理严图片*/
+.nav-user img{
+   position: relative;
+   top: 3px;
+}
+
+
+
+
+/*web前端部分设置*/
+.web-hover{
+display: none;
+position: absolute;
+top: 55px;
+left: 0;
+width: 268px; 
+background-color: white;
+border-radius:3px; 
+color:black;
+font-size: 16px;
+text-decoration: none;
+text-align: center;
+z-index: 1;
+
+}
+.web-hover p a{
+    color:black;
+}
+
+.web-hover p a:hover{
+    color: orange;
+    text-decoration: underline;
+
+}
+
+
+
+
+/*java部分*/
+.java-hover{
+    display: none;
+    position: absolute;
+    top: 55px;
+    left: 155px;
+    width: 268px; 
+    background-color: white;
+    border-radius:3px; 
+    color:black;
+    font-size: 16px;
+    text-decoration: none;
+    text-align: center;
+    z-index: 1;
+  
+    }
+    .java-hover p a{
+        color:black;
+    }
+   
+    .java-hover p a:hover{
+        color: orange;
+        text-decoration: underline;
+    
+    }
+    
+
+
+
+    
+/*Python部分*/
+.python-hover{
+    display: none;
+    position: absolute;
+    top: 55px;
+    left: 300px;
+    width: 268px; 
+    background-color: white;
+    border-radius:3px; 
+    color:black;
+    font-size: 16px;
+    text-decoration: none;
+    text-align: center;
+    z-index: 1;
+    }
+    .python-hover p a{
+        color: black;
+    }
+    
+    .python-hover p a:hover{
+        color: orange;
+        text-decoration: underline;
+    
+    }
+    
+
+
+
+       
+/*MySQL部分*/
+.mysql-hover{
+    display: none;
+    position: absolute;
+    top: 55px;
+    left: 455px;
+    width: 268px; 
+    background-color: white;
+    border-radius:3px; 
+    color:black;
+    font-size: 16px;
+    text-decoration: none;
+    text-align: center;
+    z-index: 1;
+    }
+    .mysql-hover p a{
+        color: black;
+    }
+   
+    .mysql-hover p a:hover{
+        color: orange;
+        text-decoration: underline;
+    
+    }
+    
+
+
+    /*SQL部分*/
+.SqlServer-hover{
+    display: none;
+    position: absolute;
+    top: 55px;
+    right: 0;
+    width: 268px; 
+    background-color: white;
+    border-radius:3px; 
+    color:black;
+    font-size: 16px;
+    text-decoration: none;
+    text-align: center;
+    z-index: 1;
+    }
+    .SqlServer-hover p a{
+        color: black;
+    }
+    
+    .SqlServer-hover p a:hover{
+        color: orange;
+        text-decoration: underline;
+    
+    }
+    
+
+/*section主体部分*/
+section{
+    width: 1450px;
+    height: 1000px;
+    min-width: 1450px;
+    min-height: 1000px;
+    margin: 0 auto;
+    position: relative;
+
+}
+
+/*中心区域左部分*/
+.main-left{
+    display: inline-block;
+    width: 300px;
+    height: 900px;
+    position: absolute;
+    left: 10px;
+    top: 20px;
+    /*溢出部分滚动条显示*/
+    overflow:auto;
+}
+
+/*中心区域中间部分*/
+.main-center{
+    display: inline-block;
+    width: 750px;
+    height: 900px;
+    position: absolute;
+    left:350px; 
+    top: 20px;
+
+}
+
+/*中心区域右边部分*/
+.main-right{
+    display: inline-block;
+    position: absolute;
+    right: 10px;
+    top: 20px;
+    width: 300px;
+    height: 500px;
+}
+.add-font{
+    width: 100%;
+    height: 200px;
+    margin-top: 50px;
+}
+.add-font img{
+    width: 100%;
+    height: 100%;
+    border-radius:10px; 
+}
+
+ 
+/*底部的作者介绍*/
+.foot{
+    width: 100%;
+    height: 70px;
+    position: absolute;
+    bottom: 0;
+}
+
+.foot p{
+    text-align: center;
+    color: black;
+    font-size: 25px;
+    font-family: '宋体';
+}
+    
+ 
+/*左边的笔记部分*/
+.main-left-content{
+    width: 95%;
+    margin: 0 auto;
+
+}
+
+/*左边的笔记部分样式*/
+.main-accp-s1-note,
+.main-accp-s2-note,
+.main-accp-y2-note,
+.main-accp-python-note,
+.main-problem-java,
+.main-problem-python,
+.main-problem-web,
+.main-problem-db{
+    width:100%; 
+}
+
+/*笔记的标题*/
+.s1-note,
+.s2-note,
+.y2-note,
+.python-note,
+.problem-java,
+.problem-python,
+.problem-web,
+.problem-db{
+   width: 100%;
+   height: 31.2px;
+   background-color: #3C85C4;
+   cursor: pointer;
+   margin-top: 10px;
+   border-radius:5px; 
+}
+
+/*笔记的标题的文字样式*/
+.s1-note p,
+.s2-note p,
+.y2-note p,
+.python-note p,
+.problem-java p,
+.problem-python p,
+.problem-web p,
+.problem-db p{
+    font-size: 16px;
+    font-family: '宋体';
+    text-align: center;
+    line-height: 31.2px;
+    color: white;
+}
+.s1-note p:hover,
+.s2-note p:hover,
+.y2-note p:hover,
+.python-note p:hover,
+.problem-java p:hover,
+.problem-python p:hover,
+.problem-web p:hover,
+.problem-db p:hover{
+    text-decoration: underline;
+}
+
+
+/*所有笔记的样式*/
+.main-accp-s1-note .s1-note-font,
+.main-accp-s2-note .s2-note-font,
+.main-accp-y2-note .y2-note-font,
+.main-accp-python-note .python-note-font,
+.main-problem-java .problem-java-font,
+.main-problem-python .problem-python-font,
+.main-problem-web .problem-web-font,
+.main-problem-db .problem-db-font{
+    width: 100%;
+    height:400px;
+    overflow: auto;
+    background-color: white; 
+    display: none;
+}
+.main-accp-s1-note .s1-note-font::-webkit-scrollbar,
+.main-accp-s2-note .s2-note-font::-webkit-scrollbar,
+.main-accp-y2-note .y2-note-font::-webkit-scrollbar,
+.main-accp-python-note .python-note-font::-webkit-scrollbar,
+.main-problem-java .problem-java-font::-webkit-scrollbar,
+.main-problem-python .problem-python-font::-webkit-scrollbar,
+.main-problem-web .problem-web-font::-webkit-scrollbar,
+.main-problem-db .problem-db-font::-webkit-scrollbar{
+    /*滚动条整体样式*/
+	width: 5px;
+	/*高宽分别对应横竖滚动条的尺寸*/
+	height: 0;
+}
+.main-accp-s1-note .s1-note-font::-webkit-scrollbar-thumb,
+.main-accp-s2-note .s2-note-font::-webkit-scrollbar-thumb,
+.main-accp-y2-note .y2-note-font::-webkit-scrollbar-thumb,
+.main-accp-python-note .python-note-font::-webkit-scrollbar-thumb,
+.main-problem-java .problem-java-font::-webkit-scrollbar-thumb,
+.main-problem-python .problem-python-font::-webkit-scrollbar-thumb,
+.main-problem-web .problem-web-font::-webkit-scrollbar-thumb,
+.main-problem-db .problem-db-font::-webkit-scrollbar-thumb{
+    /*滚动条里面小方块*/
+	border-radius: 2px;
+	box-shadow: inset 0 0 2px rgba(0, 0, 0, 0.2);
+	/*内投影*/
+	background: #d1d4db;
+}
+.main-accp-s1-note .s1-note-font::-webkit-scrollbar-track,
+.main-accp-s2-note .s2-note-font::-webkit-scrollbar-track,
+.main-accp-y2-note .y2-note-font::-webkit-scrollbar-track,
+.main-accp-python-note .python-note-font::-webkit-scrollbar-track,
+.main-problem-java .problem-java-font::-webkit-scrollbar-track,
+.main-problem-python .problem-python-font::-webkit-scrollbar-track,
+.main-problem-web .problem-web-font::-webkit-scrollbar-track,
+.main-problem-db .problem-db-font::-webkit-scrollbar-track{
+    /*滚动条里的轨道*/
+	box-shadow: none;
+	border-radius: 0px;
+}
+.main-accp-s1-note .s1-note-font p,
+.main-accp-s2-note .s2-note-font p,
+.main-accp-y2-note .y2-note-font p,
+.main-accp-python-note .python-note-font p,
+.main-problem-java .problem-java-font p,
+.main-problem-python .problem-python-font p,
+.main-problem-web .problem-web-font p,
+.main-problem-db .problem-db-font p{
+    color: black;
+    font-family: '宋体';
+    text-align: center;
+}
+.main-accp-s1-note .s1-note-font p a,
+.main-accp-s2-note .s2-note-font p a,
+.main-accp-y2-note .y2-note-font p a,
+.main-accp-python-note .python-note-font p a,
+.main-problem-java .problem-java-font p a,
+.main-problem-python .problem-python-font p a,
+.main-problem-web .problem-web-font p a,
+.main-problem-db .problem-db-font p a{
+    color: black;
+    font-size: 14px;   
+}
+.main-accp-s1-note .s1-note-font p a:hover,
+.main-accp-s2-note .s2-note-font p a:hover,
+.main-accp-y2-note .y2-note-font p a:hover,
+.main-accp-python-note .python-note-font p a:hover,
+.main-problem-java .problem-java-font p a:hover,
+.main-problem-python .problem-python-font p a:hover,
+.main-problem-web .problem-web-font p a:hover,
+.main-problem-db .problem-db-font p a:hover{
+    text-decoration: underline;
+    color: #f40;
+}
+
+
+/*移动广告条下面的全部中心区域*/
+.main-center .main-center-content{
+    width: 100%;
+    height: 840px;
+    margin-top: 50px;
+}
+
+/*移动广告条下面的全部中心区域，logo部分和网站介绍部分*/
+.main-center-content .main-center-content-top{
+    width: 100%;
+    height: 200px;
+}
+
+/*移动广告条下面的全部中心区域，装logo的div*/
+.main-center-content-top .content-img{
+    width:100px;
+    height:100px;
+    margin: 0 auto;
+    border-radius:4px; 
+}
+
+
+/*移动广告条下面的全部中心区域，logo*/
+.main-center-content-top .content-img img{
+    width: 100%;
+    height: 100%;
+    border-radius:4px; 
+}
+
+/*移动广告条下面的全部中心区域，logo下面的字体*/
+.main-center-content-top p{
+    color: black;
+    font-family: '宋体';
+}
+
+
+/*中心区域*/
+.main-center-content-body{
+    margin: 0 auto;
+    width: 600px;
+	min-width: 600px;
+    height: 450px;
+	/* background-color: green; */
+}
+
+/*搜索框容器*/
+#main-center-search-txt-content{
+	width: 100%;
+	height: 35px;
+	position: relative;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+/*搜索框*/
+#main-center-search-txt{
+	height: 30px;
+	width: 600px;
+	border-color: 1px solid #B8B8B8;
+}
+/*搜索按钮*/
+#main-center-search-btn{
+	width: 85px;
+	height: 30px;
+	border: none;
+	color: white;
+	font-family: '宋体';
+	font-size: 16px;
+	cursor: pointer;
+	background-color: #3388FF;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+/*搜索框的结果*/
+.main-center-search-a{
+	width: 100%;
+	height: 400px;
+	overflow: auto;
+	/* background-color: blanchedalmond; */
+}
+.main-center-search-a .main-center-search-result{
+	color: black;
+	font-family: '宋体';
+	font-size: 14px;
+	cursor: pointer;
+	display: block;
+	margin-bottom: 8px;
+}
+.main-center-search-a .main-center-search-result:hover{
+	color: orangered;
+}
+
+
+/*微信图片*/
+.main-center-content-foot-left{
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.main-center-content-foot-left img{
+    width: 100%;
+    height: 100%;
+}
+
+
+/*QQ图片*/
+.main-center-content-foot-right{
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.main-center-content-foot-right img{
+    width: 100%;
+    height: 100%;
+}
+
+
+/*右边的广告，解决加载错误问题*/
+.ad{
+    width: 50px;
+    height: 245px;
+    background-color:#f40;
+    position: absolute;
+    right:0;
+    top:300px ;
+    border-radius:4px; 
+}
+.ad p{
+    color: white;
+    font-size: 15px;
+    font-family: '宋体';
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,155 @@
+body { 
+	background-color: #7ED2F7; 	
+}
+
+.pic {
+	background-image: url(../img/p2.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-color: #7ED2F7;
+	width: 100%;
+	height: 850px;
+	position: relative;
+}
+
+.wrapper {
+	position: absolute;
+	margin: auto;
+	left: 0;
+	bottom: 0;
+	top: 0;
+	right: 0;
+	width: 505px;
+	height: 405px;
+	/* background-color: red; 	 */
+}
+
+.wrapper .fom {
+	position: absolute;
+	margin: auto;
+	left: 0;
+	bottom: 0;
+	top: 0;
+	right: 0;
+	width: 400px;
+	height: 300px;
+	/* background-color: aqua */
+}
+
+/*form表单*/
+.wrapper #main-fom p {
+	font-size: 20px;
+	/* color: #FFFFFF; */
+	color: black;
+	font-family: '宋体'
+}
+
+/*表单输入框*/
+#userName,#userPwd {
+	width: 200px;
+	height: 25px;
+	border: none;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	margin-left: 10px;
+	border-radius: 3px;
+}
+
+#userPwd {
+	margin-left: 30px;
+}
+
+/*验证码*/
+#verify {
+	width: 75px;
+	height: 25px;
+	border: none;
+	border-radius: 3px;
+	margin-left: 10px;
+}
+
+#yz {
+	display: inline-block;
+	width: 65px;
+	height: 25px;
+	background-color: #21D3B9;
+	border: 1px solid white;
+	box-shadow: 0 0 2px #FF8382;
+	cursor: pointer;
+	margin-left: 15px;
+	position: relative;
+	/* top: 4px; */
+	color: rgb(83, 74, 74);
+	text-align: center;
+	line-height: 25px;
+	font-style: italic;
+}
+
+#hint {
+	display: inline-block;
+	color: #FFFFFF;
+	font-size: 12px;
+	font-family: '宋体';
+	position: relative;
+	/* top: 4px; */
+}
+
+/*登录按钮*/
+#login {
+	width: 400px;
+	height: 30px;
+	border: none;
+	color: #FFFFFF;
+	font-size: 20px;
+	text-align: center;
+	line-height: 30px;
+	font-family: '宋体';
+	background-color: deepskyblue;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+#login:hover {
+	color: orangered;
+}
+
+/*form表单的图标*/
+#main-fom i {
+	margin-right: 10px;
+}
+
+/*form表单的p标签*/
+#main-fom p {
+	margin-bottom: 35px;
+}
+
+/*注册账号和忘记密码*/
+.fom #a1 {
+	color: #FFFFFF;
+	text-decoration: none;
+	font-size: 14px;
+	font-family: '宋体';
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+
+.fom #a2 {
+	color: #FFFFFF;
+	text-decoration: none;
+	font-size: 14px;
+	font-family: '宋体';
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+
+.fom #a1:hover,.fom #a2:hover {
+	color: orangered;
+}
+
+#span-name img{
+	display:inline-block;
+	position: relative;
+	top:-5px;
+}

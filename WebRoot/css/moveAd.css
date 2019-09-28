@@ -1,0 +1,41 @@
+
+/*使用介绍：
+ * 1、给装 .move-ad 的父级元素设置position属性
+ * 2、设置装广告条的高度，给.move-ad 设置高度
+ * 3、给中间移动的广告条主体部分设置宽度( .move-ad-main 它的宽度)
+ * 4、细节内容请自己手动调整
+ *
+ */
+
+/*装广告条的最外层*/
+.move-ad {
+	width: 100%;
+	/*高度*/
+	height: 40px;
+	/* background-color: green; */
+	position: absolute;
+	overflow: hidden;
+}
+
+/*移动的广告条*/
+.move-ad-main {
+	/*宽度*/
+	width: 600px;
+	height: 75%;
+	position: absolute;
+	top: 12.5%;
+}
+
+/*广告条中的图片*/
+#move-ad-main-pic {
+	height: 100%;
+}
+
+/*移动的广告条的span标签，细节内容自己手动调整*/
+.move-ad-main span {
+	color: black;
+	position: relative;
+	bottom: 10px;
+	font-size: 14px;
+	font-family: '宋体';
+}

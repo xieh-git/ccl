@@ -1,0 +1,30 @@
+#love {
+				width: 30px;
+				height: 30px;
+				/*border: 1px solid red;*/
+				position: absolute;
+			}
+			
+			#first {
+				width: 15px;
+				height: 26px;
+				background-color: red;
+				position: absolute;
+				right: 3.2px;
+				bottom: 0;
+				transform: rotate(45deg);
+				border-radius: 10px 10px 1px 1px;
+				opacity: 1;
+			}
+			
+			#second {
+				width: 15px;
+				height: 26px;
+				background-color: red;
+				position: absolute;
+				left: 3.2px;
+				bottom: 0;
+				transform: rotate(-45deg);
+				border-radius: 10px 10px 1px 1px;
+				opacity: 1;
+			}

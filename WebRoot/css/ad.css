@@ -1,0 +1,14 @@
+.ad{
+    width: 50px;
+    height: 245px;
+    background-color:#f40;
+    position: absolute;
+    right:0;
+    top:300px ;
+    border-radius:4px; 
+}
+.ad p{
+    color: white;
+    font-size: 15px;
+    font-family: '宋体';
+}

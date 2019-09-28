@@ -1,0 +1,38 @@
+
+.xh-viewpager{
+	width: 100%;
+	height: 200px;
+	position: relative;
+	overflow: hidden;
+	border-radius:10px; 
+}
+
+.xh-viewpager-img img{
+	border-radius:10px; 
+}
+
+/*装按钮的容器*/
+.xh-viewpager-btn{
+	width: 200px;
+	height: 25px;
+	position: absolute;
+	/*按钮样式边距*/
+	bottom: 5px;
+	right: 50px;	
+}
+
+/*每个按钮的样式*/
+.xh-viewpager-btn-1,
+.xh-viewpager-btn-2,
+.xh-viewpager-btn-3,
+.xh-viewpager-btn-4,
+.xh-viewpager-btn-5{
+	display: inline-block;
+	width:10px;
+	height: 10px;
+	background-color: gray;
+	border-radius:50% ;
+	cursor: pointer;
+	margin-left: 21px;
+	margin-top:7px;
+}

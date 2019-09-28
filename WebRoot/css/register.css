@@ -1,0 +1,161 @@
+body{
+    margin: 0;
+    padding: 0;   
+    text-decoration: none;
+    list-style: none;
+    /*
+    background-image: url(../img/p1.jpg);
+	background-size:100%;
+	background-repeat: no-repeat;
+	*/	
+	background-color: #7ED2F7; 
+}
+
+.wrapper{
+    width: 800px;
+    height: 700px;
+    /* background-color: red; */
+   /* position: relative;*/
+   	position: absolute;
+    margin:auto;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+}
+
+.main{
+    width: 600px;
+    height: 600px;
+    /* background-color: #7ED2F7; */
+    position: absolute;
+    /* left: 12.5%; */
+    left: 5%;
+    top: 7.1%;  
+}
+
+
+/*表单的p标签*/
+.wrapper .main p{
+    font-size: 20px;
+	/* color: #FFFFFF; */
+	color: black;
+    font-family: '宋体';
+}
+.wrapper .main span{
+    color: red;
+    font-size: 12px;
+}
+
+
+
+/*表单的 "用户注册" 样式*/
+#header{
+    font-size: 35px;  
+    text-align: center;
+}
+
+
+
+/*表单中的所有p标签*/
+#fom p{
+    margin-left: 15.2%;
+    margin-top: 35px;
+}
+
+
+
+
+/*表单的图标*/
+.wrapper .main i{
+    position: relative;
+    top: 4px;
+}
+
+
+/*表单所有输入框样式*/
+#name,
+#pwd1,
+#pwd2,
+#email,
+#phone,
+#qq{
+    width:240px;
+	height: 25px; 
+	border: none;
+	/* margin-bottom: 10px;
+	margin-top: 10px;
+	margin-left: 10px; */
+	border-radius: 3px;
+}
+
+
+
+/*用户名的输入框*/
+#name{
+    margin-left: 20px;
+}
+
+
+
+/*表单的提交按钮和取消按钮*/
+#sub,
+#res{
+    width: 200px;
+	height: 30px;
+	border:none;
+	color:#FFFFFF;
+	font-size: 20px;
+	text-align: center;
+	line-height: 30px;
+	font-family: '宋体';
+	background-color: deepskyblue;
+	border-radius: 5px;
+    cursor: pointer;
+    position: absolute;
+
+}
+
+
+/*注册和提交按钮的鼠标移过*/
+#sub:hover,
+#res:hover{
+    color: orangered;
+}
+
+/*注册按钮*/
+#sub{
+    bottom: 0;
+    left: 0;
+}
+
+
+/*提交按钮*/
+#res{
+    right: 0;
+    bottom: 0;
+}
+
+
+
+/*用户输入错误时提示用的span标签*/
+#span-name,
+#span-pwd1,
+#span-pwd2,
+#span-email,
+#span-phone,
+#span-qq{
+    position: relative;
+    top: 3px;
+}
+
+
+#hint{
+    color: red;
+    font-size: 14px;
+    /* text-align: center; */
+    margin-left: 15.2%;
+    font-family: '宋体';
+    font-style: normal;
+
+}
